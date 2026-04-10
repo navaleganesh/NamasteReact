@@ -5,7 +5,7 @@ const useLordBody = () => {
       const [listOfResturantDummy, setlistOfResturantDummy] = useState([]);
 
     useEffect(()=>{
-        fetchData()
+        fetchData();
     }, [])
 
     const fetchData = async () => {
