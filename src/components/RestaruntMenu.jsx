@@ -27,6 +27,8 @@ const RestaruntMenu = () => {
 
   return (
     <div className="text-center">
+
+
       {/* <div>
         <img style={{ width: 100 }} src={prod_url + cloudinaryImageId} alt="" />
       </div>
@@ -45,7 +47,7 @@ const RestaruntMenu = () => {
           showItems = {index === showIndex }
           setShowIndex = {() => setShowIndex(index)}
           // setShowIndex = {() => setShowIndex(prev => prev === index ? null : index)}
-          />))
+          />))  
         }
         
      
