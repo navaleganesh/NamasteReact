@@ -8,7 +8,7 @@ const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
 
     const handleClick = () => {
          setShowIndex();
-    }
+    } 
     
     return (
         <div className="bg-gray-100 shadow-gray-100 px-3 py-3 my-3 w-xl m-auto " >
