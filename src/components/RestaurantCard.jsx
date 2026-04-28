@@ -12,7 +12,7 @@ const RestaurantCard = ({resData}) => {
  
   return (
     
-    <div className='m-4 p-4 w-[250px] h-[400px] rounded-lg hover:bg-gray-100'>
+    <div className='m-4 p-4 w-[260px] h-[400px] rounded-lg hover:bg-gray-100'>
       <img className="res-logo rounded-lg" src={prod_url + info.cloudinaryImageId} alt="" />
       {/* <h3>{id}</h3> */}
       <h3 className="font-bold py-4 text-lg">{name}</h3>
