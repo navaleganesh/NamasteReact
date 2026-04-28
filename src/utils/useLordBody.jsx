@@ -10,8 +10,8 @@ const useLordBody = () => {
 
     const fetchData = async () => {
     const fetchD = await fetch("https://namastedev.com/api/v1/listRestaurants");
-    const json = await fetchD.json();
-    setlistOfResturantDummy(json?.data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    const jsonData = await fetchD.json();
+    setlistOfResturantDummy(jsonData?.data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   }
 
 
